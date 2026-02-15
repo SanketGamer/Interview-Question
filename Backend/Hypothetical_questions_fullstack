@@ -1,0 +1,6 @@
+1) Tell Me About Your Project Architecture ?
+- my project a layered architecture with frontend,backend and database.
+  the frontend is build using React,for styling i use tailwind css. the frontend(react) which handle UI and sends the Api request to backend.
+  the backend is build using node js/spring boot. where controller handle requests, service contain business logic, and database layer manage 
+  data persistence.
+This separation makes the application scalable, maintainable, and easy to test.
