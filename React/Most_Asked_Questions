@@ -1,0 +1,38 @@
+
+1) What is React ?
+- React is a JavaScript library that used to build user interface(ui) espacially for single page application.
+
+2) What is Component ?
+- A component is reusable piece of React.
+
+3) What is State ?
+- State is a built in object that store data of componenet.
+
+️4) What is Props ?
+- They are used to pass the data Parent component to child component.
+
+5) What is useEffect ?
+- useEffect is a react hook used to perform side effect(happends after component rendering)
+
+6) What is useState ?
+- it is a hook that creates and manage the state(data) in a functional component.
+
+7) What is Hook ?
+- Hooks are special functions in React that let functional components use features like state and lifecycle behavior.
+
+8) What is virtual DOM ?
+- Virtual dom is a lightweight copy of real dom.
+  Virtual DOM makes React fast by updating only changed elements instead of entire page.
+
+9) What is React Router ?
+- it is a library used to handle navigation and routing between components in React Application.
+
+10) useMemo vs useCallback (Basic Idea — Simple) ?
+- These are React performance optimization hooks.
+  They help avoid unnecessary re-renders and heavy calculations.
+
+11) What is list in react ?
+- list are used to display multiple items dynamically in arrays.
+
+12) What are Keys ?
+- Keys are special attributes used to uniquely identify list items in React.
