@@ -1,0 +1,23 @@
+1️) What happens when user hits API ?
+- lets suppose in client section i clicking a button when i click the button the request goes on the server.in server we defined as 3 layer architecture.
+  so the req comes in controller architecture(validate input,Calls service layer/business logic,Handles authentication/authorization) then service layer 
+  executes(bussiness logic,Calling repository/database) then it interact with database(Fetch products,Save user data) and server prepare to responce in
+  client(Status code (200, 201, 404, 500),Response body (usually JSON) )
+  flow -> User → HTTP Request → Router → Controller → Service → Database → Response → UI
+
+2) How frontend communicates with backend ?
+- frontend communicate backend through http request(apis) lets breakdown
+  1. User click the button.
+  2. Req to send using http methods(get,post,put,delete) ex- this using fetch
+  3. Data sent in request(Headers → auth token and content type, query parameter->filter , json formate
+  4. Backend processes request (Receives request, Validates data, Executes logic, Interacts with database)
+  5. Backend sends response (Status code (200, 201, 400, 404, 500, JSON data)
+
+3) What is JSON ?
+- JSON(JavaScript Object notation) is a lightweight data format used to store and exchnage data between frontend and backend.
+
+4) What is http protocol ?
+- http(hyper text transfer protocol) is a communication protocol used to send the data between client to server.
+
+5) What are HTTP Status Codes?
+- HTTP status codes are 3-digit numbers returned by the server to tell the client whether a request was successful or failed.
