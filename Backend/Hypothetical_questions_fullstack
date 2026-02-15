@@ -3,4 +3,27 @@
   the frontend is build using React,for styling i use tailwind css. the frontend(react) which handle UI and sends the Api request to backend.
   the backend is build using node js/spring boot. where controller handle requests, service contain business logic, and database layer manage 
   data persistence.
-This separation makes the application scalable, maintainable, and easy to test.
+ This separation makes the application scalable, maintainable, and easy to test.
+
+2) What APIs you created ?
+- i have created Restfull Apis for CRUD operations like creating,fetching,updating and deleting. for example in my project i built apis for user authentication and managing products/courses.
+  i used http methods like GET,POST,PUT,DELETE handled json data, and implemented proper status code and error handling.
+
+3) How authentication works ?
+- Authentication is a process of verifying a user identity. when users login they send credentials like email,password.the server verifies them from the database.
+  and if valid they generate a tokens which used to authorize further requests.
+
+4) Why we used jwt token ?
+- hypothetically asume same name 100 people login so how the server know which one is the correct one because all are same name so they defined each have a indentity called token thats how we use token.
+  Even if multiple users have the same name, When they log in, the server generates a unique JWT token containing their identity, so the server can identify exactly which user is making the request.
+
+5) What challenges you faced when you doing a fullstack project ?
+- while working on my fullstack project, i faced challenges like handling API intregation, managing state(data changes over the time) between frontend and backend, authentication implemetation, and debugging errors.
+  i solve the using proper logging, testing Apis with Postman.
+
+6) What error you faced mostly when u create a fuullstack webapp ?
+- Mostly i faced issues like API responce errors, authentication token issues, CORS errors, and database connections problems. i solved them debugging logs,checking api responses in Postman, and
+  verifying requests headers.
+
+7) How you deployed a project ?
+- i deployed my project in cloud based platform. i configuard envirement variables,connected database,and tested apis after deploy the frontend and backend to ensure evrything is correct.
