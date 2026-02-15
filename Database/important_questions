@@ -1,0 +1,45 @@
+
+1. Difference Between SQL vs NoSQL
+- SQL : Relational database,uses table,fixed schema,supports joins best for Structure data (Example: MySQL, PostgreSQL)
+ NoSQL : Non-Relational database,uses json,key-value,document,flexible schema,No complex join,Best for large and unstructured data (Example: MongoDB, Firebase)
+
+2. What is Primary_Key ?
+- a primary-key is a col that uniquely identifies and not null each row in a table.
+
+3. What is foreign_Key ?
+- a foreign_Key is a col that links to one table to another table primary key.
+
+4. What is indexing ?
+- Indexing is used to speed up data retrieval by creating a quick lookup structure.
+ Makes searching faster
+ Similar to book index
+
+5. Difference Between JOIN Types
+🔹 INNER JOIN : Returns matching records from both tables
+🔹 LEFT JOIN : Returns all records from left table + matching from right
+🔹 RIGHT JOIN : Returns all records from right table + matching from left
+🔹 FULL JOIN : Returns all records from both tables
+👉 Interview line: JOIN is used to combine rows from multiple tables based on related column.
+
+6. What is ACID Property ?
+- Automacity : Transaction happend fully or not at all.
+  Consistency : Database remain valid after tansaction.
+  Isolation : Transaction do not interfere each other.
+  Durability : Chnages remain saved after crash.
+
+7. What is GROUP BY
+- Used to group rows with same values.
+
+8. Difference WHERE vs HAVING ?
+- WHERE → filter before grouping
+  HAVING → filter after grouping
+
+9. What is UNION vs UNION ALL ?
+- UNION → removes duplicates
+  UNION ALL → keeps duplicates
+
+10. Why PostgreSQL?
+-  PostgreSQL is reliable, ACID compliant, supports complex queries and JSON data, and is suitable for scalable applications.
+
+11. Why We Use Prisma ?
+- Prisma is ORM(object relational model) used to interact to database easily using code instead of writing raw sql queries.
