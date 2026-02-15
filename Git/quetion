@@ -1,0 +1,11 @@
+
+1) What is Git ?
+- Git is a version control system that tracks the code.
+
+2) Difference between Git and GitHub
+ - Git = tool
+   GitHub = cloud hosting platform
+
+3) How you upload project to GitHub
+ - I first create a repository on GitHub. Then in my project folder I initialize git using git init, add files using git add .
+   commit changes using git commit -m "initial commit", connect to remote repository using git remote add origin URL, and finally push code using git push -u origin main.
