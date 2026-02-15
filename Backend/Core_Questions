@@ -1,0 +1,9 @@
+
+1) What is REST API ?
+- Rest Apis is a way for different systems(frontend to backend) to communicate over http using standard methods like - get,post,put,delete
+
+2) What is MiddleWare ?
+- Middleware is a function that executes before the final request handler. It is used for tasks like authentication, security, logging, validation, and file handling.
+
+3) What is backend routing ?
+- Backend routing means deciding which function should run when a user sends a request to a specific URL.
